@@ -27,7 +27,7 @@ def main():
         elif per > 0:
             print("Low efficiency")
         else:
-            print("Inefficient & losing trade")
+            print("Inefficient trade resulting in a loss")
     except ValueError:
         print("Invalid input. Please enter numerical values.")
 
