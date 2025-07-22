@@ -6,3 +6,5 @@ PER penalizes trades that endure large heat or give back significant float, help
 Positive values indicate profitable trades, while negative values reflect losses or poor efficiency.
 
 This is intended as a modification of John Netto's (Netto Number) Return per unit of risk metric: also taking into account round-tripping profitable trades.
+
+<img width="794" height="310" alt="image" src="https://github.com/user-attachments/assets/d55b4f3f-6f1c-4b38-8db8-04bd08e350dd" />
