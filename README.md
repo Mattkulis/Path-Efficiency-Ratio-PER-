@@ -1,6 +1,6 @@
 # Path-Efficiency-Ratio (PER)
 
-A custom risk-adjusted return metric that evaluates how efficiently a trade captured profit relative to the max unrealized drawdown (aka Heat) and maximum unrealized gain during the trade.
+A custom risk-adjusted return metric that evaluates how efficiently a trade captured profit relative to the max unrealized drawdown (AKA heat) and maximum unrealized gain during the trade.
 
 PER penalizes trades that endure large heat or give back significant float, helping identify clean vs. sloppy trade executions.
 Positive values indicate profitable trades, while negative values reflect losses or poor efficiency.
