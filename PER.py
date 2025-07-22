@@ -13,8 +13,8 @@ def main():
     print("Path Efficiency Ratio (PER) Calculator")
     print("--------------------------------------")
     try:
-        net_return = float(input("Enter Net Return ($): "))
-        max_drawdown = float(input("Enter Max Drawdown ($): "))
+        net_return = float(input("Enter Net Return use negative sign to denote a loss($): "))
+        max_drawdown = float(input("Enter Max Drawdown in absolute value form ($): "))
         max_unrealized_gain = float(input("Enter Max Unrealized Gain ($): "))
 
         per = calculate_per(net_return, max_drawdown, max_unrealized_gain)
@@ -27,7 +27,7 @@ def main():
         elif per > 0:
             print("Low efficiency")
         else:
-            print("Inefficient or losing trade")
+            print("Inefficient & losing trade")
     except ValueError:
         print("Invalid input. Please enter numerical values.")
 
